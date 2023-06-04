@@ -9,8 +9,8 @@ pipeline{
         }
         stage("Deploy"){
             steps{
-                sh "rm -rf C:\Program Files\nodejs\SaudiVisa.jpeg"
-                 sh "rm -rf /Users/zahah/.jenkins/workspace/weatherapp  C:\Program Files\nodejs\SaudiVisa.jpeg"
+                sh "rm -rf /usr/local/var/www/node-app"
+                sh "rm -rf /Users/aakash/.jenkins/workspace/weatherapp  /usr/local/var/www/node-app"
             }
         }
     }
