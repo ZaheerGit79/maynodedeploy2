@@ -9,8 +9,8 @@ pipeline{
         }
         stage("Deploy"){
             steps{
-                sh "rm -rf /usr/local/var/www/node-app"
-                sh "cp -R /Users/aakash/.jenkins/workspace/weatherapp  /usr/local/var/www/node-app"
+                sh "rm -rf/usr/local/var/www/node-app"
+                sh "cp -R/Users/aakash/.jenkins/workspace/weatherapp  /usr/local/var/www/node-app"
             }
         }
     }
